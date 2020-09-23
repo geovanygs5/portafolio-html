@@ -1,3 +1,7 @@
+html{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 *{
   box-sizing: border-box;
 }
@@ -60,6 +64,36 @@
   text-transform: uppercase;
 }
 
+.habilidad--proyecto{
+  background-color: #29597C;
+  color: #FFF;
+  font-size: 12px;
+  display: inline-block;
+  padding: .5em;
+  text-transform: uppercase;
+}
 .habilidades{
   padding: 0;
+}
+
+/*proyectos*/
+.proyectos{
+  margin left: 450px;
+  padding: 1em;
+  display: table;
+}
+
+.proyecto{
+  display: table-cell;
+  padding: 1em;
+  width: 50%;
+}
+
+.proyecto__img{
+  width: 100%;
+}
+
+.proyecto__titulo{
+  color: #29597C;
+  font-size: 18px;
 }
